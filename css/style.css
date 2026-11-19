@@ -63,7 +63,12 @@ main {
 }
 
 .topBar ul li a:hover {
-    color: rgb(31, 50, 223);
+    color: #bbf5ca;;
+    text-decoration: underline;
+}
+
+.topBar ul li a:visited {
+    color: #54a067;
     text-decoration: underline;
 }
 
@@ -108,9 +113,36 @@ main {
     height: 330px;
     width: 400px;
     margin-bottom: 20px;
-    background-color: blanchedalmond;
+    background-color: #dbb882;
 }
 
 .tile img {
     max-width: 100%;
 }
+
+footer {
+    background-color: #130f0f;
+}
+
+.footer-container {
+    
+    padding: 1.5em;
+    width: 1280px;
+    display: flex;
+}
+
+.footer-container ul {
+    display: flex;
+}
+
+.links {
+    color: aliceblue;
+    padding: 0 20px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.social ul li img {
+    width: 50px;
+}
+
