@@ -3,8 +3,12 @@
     
 }
 
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
 
 .logo {
@@ -110,14 +114,50 @@ main {
 }
 
 .tile {
-    height: 330px;
+    height: 460px;
     width: 400px;
     margin-bottom: 20px;
     background-color: #dbb882;
+    transition: 0.3s;
+    
+    
 }
+
+
+
+
+
+.tile p {
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
 
 .tile img {
     max-width: 100%;
+}
+
+.button {
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.button a {
+    padding: 10px 15px 0 15px;
+    background-color: #f5f5e1;
+    font-size: 15px;
+    text-decoration: none;
+    color: #130f0f;
+    transition: 0.3s;
+
+}
+
+.button a:hover {
+  background-color: #3e8e41;
+  color: #e7dede;
 }
 
 footer {
@@ -140,6 +180,11 @@ footer {
     padding: 0 20px;
     margin-top: 20px;
     list-style-type: none;
+}
+
+.social ul li {
+    list-style: none;
+    padding: 0px 10px;
 }
 
 .social ul li img {
